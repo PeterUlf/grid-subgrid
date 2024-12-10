@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.item {
+  display: grid;
+  gap: 20px;
+
+  grid-template-columns: subgrid;
+  grid-template-rows: auto 1fr;
+}
